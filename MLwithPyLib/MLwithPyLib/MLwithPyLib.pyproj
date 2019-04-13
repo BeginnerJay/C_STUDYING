@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d43cb027-551a-47d5-96b8-92bd94989120</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>MLwithPyLib.py</StartupFile>
+    <StartupFile>02-supervised-learning.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,10 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="helloworld.py">
+    <Compile Include="01-introduction.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MLwithPyLib.py" />
+    <Compile Include="02-supervised-learning.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
