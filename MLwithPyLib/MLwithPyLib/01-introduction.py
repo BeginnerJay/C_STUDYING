@@ -56,12 +56,32 @@ iris_dataframe = pd.DataFrame(X_train, columns=iris_dataset.feature_names)
 pd.plotting.scatter_matrix(iris_dataframe, c=y_train, figsize=(15, 15), marker='o',
                            hist_kwds={'bins': 20}, s=60, alpha=.8, cmap=mglearn.cm3)
 
+### 첫 번째 머신 러닝 모델 : k - 최근접 이웃 알고리즘
+from sklearn.neighbors import KNeighborsClassifier
+knn = KNeighborsClassifier(n_neighbors=1)
 
+knn.fit(X_train, y_train)
+# 예측하기
+X_new = np.array([[5, 2.9, 1, 0.2]])
+print("X_new.shape:", X_new.shape)
 
+prediction = knn.predict(X_new)
+print("예측:", prediction)
+print("예측한 타깃의 이름:", 
+       iris_dataset['target_names'][prediction])
 
+# 모델 평가하기
 
+y_pred = knn.predict(X_test)
+print("테스트 세트에 대한 예측값:\n", y_pred)
+print("테스트 세트의 정확도: {:.2f}".format(np.mean(y_pred == y_test)))
+print("테스트 세트의 정확도: {:.2f}".format(knn.score(X_test, y_test)))
 
+X_train, X_test, y_train, y_test = train_test_split(
+    iris_dataset['data'], iris_dataset['target'], random_state=0)
 
+knn = KNeighborsClassifier(n_neighbors=1)
+knn.fit(X_train, y_train)
 
-
+print("테스트 세트의 정확도: {:.2f}".format(knn.score(X_test, y_test)))
 
