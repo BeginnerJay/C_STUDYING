@@ -15,16 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="sum2.c">
+    <ClCompile Include="square.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="length.c">
+    <ClCompile Include="sum.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="phoneNumber.c">
+    <ClCompile Include="numdigits.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="type.c">
+    <ClCompile Include="square2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="square3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="checking.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
