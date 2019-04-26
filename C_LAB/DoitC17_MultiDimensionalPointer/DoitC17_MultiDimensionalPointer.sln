@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DoitC17_MultiDimensionalPointer", "DoitC17_MultiDimensionalPointer\DoitC17_MultiDimensionalPointer.vcxproj", "{6EF97D71-2978-449C-8B46-5F7B1CC6894D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EF97D71-2978-449C-8B46-5F7B1CC6894D}.Debug|x64.ActiveCfg = Debug|x64
+		{6EF97D71-2978-449C-8B46-5F7B1CC6894D}.Debug|x64.Build.0 = Debug|x64
+		{6EF97D71-2978-449C-8B46-5F7B1CC6894D}.Debug|x86.ActiveCfg = Debug|Win32
+		{6EF97D71-2978-449C-8B46-5F7B1CC6894D}.Debug|x86.Build.0 = Debug|Win32
+		{6EF97D71-2978-449C-8B46-5F7B1CC6894D}.Release|x64.ActiveCfg = Release|x64
+		{6EF97D71-2978-449C-8B46-5F7B1CC6894D}.Release|x64.Build.0 = Release|x64
+		{6EF97D71-2978-449C-8B46-5F7B1CC6894D}.Release|x86.ActiveCfg = Release|Win32
+		{6EF97D71-2978-449C-8B46-5F7B1CC6894D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F980F64-E116-4310-989F-E64141A6DE42}
+	EndGlobalSection
+EndGlobal

@@ -8,7 +8,7 @@
 void quicksort(int a[], int low, int high);
 int split(int a[], int low, int high);
 
-int main(void)
+main()
 {
 	int a[N], i;
 
@@ -23,7 +23,7 @@ int main(void)
 		printf("%d ", a[i]);
 	printf("\n");
 
-	return 0;
+	// return 0;
 }
 
 void quicksort(int a[], int low, int high)
